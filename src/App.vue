@@ -58,7 +58,7 @@ components: {
 }
 
 .list__item {
-  flex: 0 0 calc(25% - 36px);
+  flex: 0 0 calc(25% - 12px);
   padding: 0 6px;
   margin-top: 12px;
 }
@@ -66,6 +66,37 @@ components: {
 .list__card {
   height: 100%;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .list {
+ padding: 0 12px;
+  
+}
+}
+
+@media screen and (max-width: 992px) {
+  .list__item {
+  flex: 0 0 calc(33.33% - 12px);
+  
+}
+}
+@media screen and (max-width: 768px) {
+  .list__item {
+  flex: 0 0 calc(50% - 12px);
+  
+}
+}
+@media screen and (max-width: 576px) {
+  .list__item {
+  flex: 0 0 calc(100%);
+  padding: 0;
+}
+
+.list {
+  margin: -12px 0 0 0;
+
+}
 }
 
 </style>

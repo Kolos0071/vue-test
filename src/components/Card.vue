@@ -27,14 +27,20 @@ export default {
     }
 
     .card__title {
+        max-width: 100%;
+        word-break: break-all;
         color: rgb(104, 179, 197);
     }
 
     .card__description {
+        max-width: 100%;
+        word-break: break-all;
         font-size: 16px;
     }
 
     .card__subtitle {
+        max-width: 100%;
+        word-break: break-all;
         color: #cacaca;
     }
 </style>
